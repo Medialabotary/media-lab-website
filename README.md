@@ -1,1 +1,44 @@
 # media-lab-website
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Thương Mại Điện Tử</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Đề cử</a></li>
+                <li><a href="#">Linh kiện</a></li>
+                <li><a href="#">Phụ kiện</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured">
+            <img src="gaming-controller.jpg" alt="Gaming Controller">
+            <button>Chi tiết</button>
+        </section>
+        <section class="categories">
+            <button>Xây dựng cấu hình</button>
+            <button>Đồ chơi công nghệ</button>
+            <button>Thiết bị văn phòng</button>
+        </section>
+        <section class="products">
+            <h2>Sản phẩm</h2>
+            <div class="product-item">Sản phẩm 1</div>
+            <div class="product-item">Sản phẩm 2</div>
+            <div class="product-item">Sản phẩm 3</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Cửa hàng công nghệ</p>
+    </footer>
+</body>
+</html>
